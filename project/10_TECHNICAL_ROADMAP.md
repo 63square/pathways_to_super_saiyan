@@ -1,13 +1,12 @@
-# 10 — Technical Roadmap
+# 10 — Technical Roadmap (v1.1, Post-SAB Review)
+
+**Pre-read:** [DEFINITIONS.md](./DEFINITIONS.md) — operational target.
 
 ## 10.1 Overview
 
-This document defines the **scientific and engineering work** to be performed in each phase. Each item is tagged with:
-- **Bucket** (GREEN / YELLOW / ORANGE) from doc 02
-- **Owner** (PI or function)
-- **Dependencies** (what must come first)
-- **Deliverable** (what success looks like)
-- **Failure mode** (how it dies and what we do then)
+This document defines the **scientific and engineering work** per phase. Each item is tagged with bucket (GREEN/YELLOW/ORANGE), owner, dependencies, deliverable, failure mode.
+
+**v1.1 revisions:** (a) mAb-first replaces AAV-first for myostatin work; (b) mRNA-LNP OSK replaces AAV-OSK as first-line reprogramming; (c) NHP cohort added (Charles River) — canine reserved for chronic small-molecule + TPE only; (d) Klotho fragment KL1 sub-Q replaces full-length AAV-Klotho; (e) acarbose, canagliflozin, weekly low-dose rapamycin, microdose tirzepatide added to GREEN; (f) HBOT de-escalated to 3×/wk @ 1.5 ATA; (g) D+Q senolytic gated to single-cycle first with pleural ultrasound; (h) NMN dropped, NR substituted.
 
 ---
 
@@ -18,298 +17,271 @@ This document defines the **scientific and engineering work** to be performed in
 **Bucket:** GREEN
 **Owner:** CMO
 **Dependencies:** Principal availability, lab capacity
-**Deliverable:** The most thoroughly characterized human phenotype in published history; ~50 TB of structured data; locked dataset for KPI pre/post comparison.
+**Deliverable:** Most thoroughly characterized human phenotype in published history; ~50 TB structured data; locked dataset for KPI pre/post.
 
-Sub-tasks:
-- WGS 30× (germline + somatic) — vendors: Illumina NovaSeq via Veritas or BGI
-- Whole exome on multiple tissues — vendor: Twist or Agilent capture, sequenced in-house Phase 1+
-- Methylome (450K + targeted) — vendor: TruDiagnostic + custom Twist panel
-- Proteome (Olink Explore 3072) — vendor: Olink
-- Metabolome (Metabolon HD4) + Lipidome — vendor: Metabolon
-- Microbiome shotgun (gut, oral, skin) — vendor: uBiome successor (Microba, etc.)
-- Whole-body MRI 7T — partner: Harvard MRI center or Stanford
-- Cardiac MRI + stress + echo — partner: Mass General or equivalent
-- Brain MRI (multimodal) — same partner as above
-- DEXA, ADP, CT bone — vendor: standard radiology
-- VO₂max, Wingate, isokinetic — in-house clinical suite
-- Continuous monitoring: Whoop, Oura, Apple Watch, Polar, Levels (CGM) — redundant
-- Neuropsych battery — vendor: Cogstate, CANTAB
-- Sleep PSG — in-home
+Sub-tasks (v1.0 list plus):
+- **Sperm cryopreservation** (mandatory pre-Phase-0 before gonadotoxic interventions)
+- **Anti-AAV neutralizing antibody panel** (multi-serotype, gates Phase 1)
+- **Baseline vaccine challenge** (Tdap + zoster — establishes K9 immune trajectory)
+- **Baseline OGTT + Matsuda + 14-day CGM under structured exercise** (K10)
+- **In-home PSG 7 nights** (K11)
+- **Baseline IIEF + structured psychiatric battery** (SCID-5, Y-BOCS, AUDIT, hypomania, MLQ)
 
-**Failure mode:** Logistics complexity delays baseline beyond M5. Mitigation: pre-arrange all vendors during M1–M2; PMO tracks each test on critical path.
+**Failure mode:** Logistics complexity delays baseline beyond M5. Mitigation: pre-arrange all vendors during M0–M2 (per A3 with deposit-funded slot reservations); PMO tracks on critical path.
 
-### Workstream 0.2 — Tier 1 Interventional Protocol (Lifestyle + Pharma)
+### Workstream 0.2 — Tier 1 Interventional Protocol (Lifestyle + Pharma, GREEN)
 
 **Bucket:** GREEN
 **Owner:** CMO + PI-Performance
-**Dependencies:** Baseline complete; Ethics Council approval
-**Deliverable:** Documented 12-week Tier 1 intervention with biomarker delta vs baseline.
+**Dependencies:** Baseline complete; EEC + Ethics Council + S&S Cmte approval
+**Deliverable:** Documented 12-week Tier 1 with biomarker delta vs baseline.
 
-Components:
-- Polarized training program (Seiler protocol; 80/20 Z2/Z5)
-- Heat acclimation (sauna protocol; Hannuksela & Ellahham reviews)
-- Intermittent hypoxia (IHT; altitude tent + sessions at FiO₂ 0.13)
-- Diet (periodized; target macros calibrated to training load)
-- Cyclic FMD (Longo protocol; 5 days every 3 months)
-- Sleep optimization (CBT-i + behavioral + environmental)
-- Supplement stack (creatine, urolithin A, NMN, MitoQ, omega-3, vit D, mag glycinate, glycine, melatonin)
-- Endocrine assessment + TRT only if clinically indicated and within physiological ranges
+Components (per doc 02 v1.1 GREEN bucket):
+- Polarized training (Seiler protocol; 80/20 Z2/Z5)
+- Heat acclimation (sauna)
+- Intermittent hypoxia training (altitude tent + FiO₂ 0.13 sessions)
+- Periodized diet
+- Cyclic FMD (Longo, 5 days every 3 months)
+- Sleep optimization (CBT-i + light/temp/CO₂ control)
+- **Supplement stack: creatine, urolithin A, NR (not NMN), MitoQ, omega-3, vit D, mag glycinate, glycine, melatonin micro-dose**
+- **Acarbose 100mg TID** (per SAB — ITP-positive, decades of safety data)
+- **Canagliflozin 100mg daily** (per SAB — CV mortality benefit, non-diabetics)
+- **Weekly low-dose rapamycin** (PEARL protocol; immune rejuvenation)
+- Endocrine: physiological-range TRT only if clinically indicated
+- **Microdose tirzepatide** (sub-anti-obesity dose, muscle-sparing with resistance training pair)
 
-**Failure mode:** Principal cannot adhere due to schedule. Mitigation: concierge medical model; protocol adapted to schedule; minimum effective dose first.
+**Failure mode:** Principal cannot adhere. Mitigation: concierge medical model; protocol adapted; minimum effective dose first.
 
-### Workstream 0.3 — Tier 2 Interventional Protocol (Senolytic + TPE)
+### Workstream 0.3 — Tier 2 (Senolytic single-cycle + capped TPE, GREEN — gated)
+
+**Bucket:** GREEN with gates
+**Owner:** CMO + PI-Reprogramming + S&S Committee (binding pre-clearance)
+**Deliverable:** Senolytic single-cycle + 4 TPE sessions; biomarker response measured.
+
+Components (revised per SAB):
+- **D+Q single cycle** (100mg dasatinib + 1000mg quercetin × 3 consecutive days) — NOT monthly. **Pleural ultrasound at 14 days** before any further cycle consideration. 90-day washout minimum.
+- **Fisetin single cycle** (1500mg × 2 consecutive days) alternating after washout
+- **TPE: 4 sessions total in Phase 0** (was weekly × 4 + maintenance Q6M; capped per SAB feedback). Pre-cycle: IgG, B-cell repertoire baseline. Post: 4h observation per session.
+- Post-each-cycle biomarker panel (full Olink + Metabolon + senescence-associated panel β-gal, p16, SASP)
+
+**Failure mode:** Grade 2+ AE — hard stop per recalibrated rules. Mitigation: SOP stop rules (doc 11); dose-reduction NOT available without re-approval cycle; halt Tier 2 only, continue Tier 1.
+
+### Workstream 0.4 — Tier 3 (Microbiome + Mitochondrial Substrate, GREEN)
 
 **Bucket:** GREEN
-**Owner:** CMO + PI-Reprogramming
-**Dependencies:** Tier 1 in stable execution; clean labs M0–M6
-**Deliverable:** Senolytic cycles + 4 TPE sessions completed; biomarker response measured.
-
-Components:
-- D+Q dosing: 100mg dasatinib + 1000mg quercetin × 3 consecutive days, Q monthly × 3 then Q3M
-- Fisetin: 1500mg × 2 consecutive days monthly (alternates with D+Q)
-- TPE: 1.0 plasma volume × 4 sessions over 8 weeks, then Q6M maintenance
-- Post-each-cycle biomarker panel (full Olink + Metabolon)
-
-**Failure mode:** Adverse event (Grade ≥2). Mitigation: SOP stop rules (doc 11); dose-reduction available; halt to Tier 2 only, continue Tier 1.
-
-### Workstream 0.4 — Tier 3 Interventional Protocol (Microbiome + Mitochondrial Substrate)
-
-**Bucket:** GREEN
-**Owner:** PI-Performance + CMO
-**Dependencies:** Tier 2 stable; donor screening complete
+**Owner:** PI-Performance + CMO + S&S
 **Deliverable:** FMT engraftment confirmed; mitochondrial substrate optimization quantified.
 
-Components:
-- Pre-FMT abx (Cipro + Metronidazole 7 days)
-- FMT from screened athlete donor (3 doses oral capsule over 3 weeks)
-- Veillonella + Akkermansia maintenance probiotics
-- Ketogenic adaptation (8 weeks) + cyclic
-- Exogenous ketone esters pre-key sessions
+Components: per v1.0, plus
+- **³¹P-MRS in vivo for PCr recovery kinetics** as non-invasive functional mitochondrial readout
 
-**Failure mode:** Poor FMT engraftment. Mitigation: repeat with different donor; backup donor pool pre-screened.
-
-### Workstream 0.5 — Tier 4 Interventional Protocol (Cognitive + Recovery)
+### Workstream 0.5 — Tier 4 (Cognitive + Recovery, GREEN)
 
 **Bucket:** GREEN
-**Owner:** CMO
-**Dependencies:** Tier 3 stable
+**Owner:** CMO + S&S
 **Deliverable:** Cognitive z-score improvement; HBOT course completed.
 
-Components:
-- tDCS daily (anodal F3, 2mA × 20 min, paired with cog training)
-- TMR during sleep (audio cues + daytime learning)
-- HBOT (90 min @ 2.0 ATA, 5×/wk × 8 wk; Hachmo protocol)
+Components (revised per SAB):
+- Daily tDCS (anodal F3, 2mA × 20 min + cognitive training pair)
+- TMR during sleep
+- **HBOT 3×/wk × 8wk @ 1.5 ATA** (de-escalated from 5×/wk @ 2.0 ATA; pulmonary function panels weeks 0/4/8)
 - Photobiomodulation full-body
 
-**Failure mode:** No cognitive signal. Mitigation: this is exploratory; not a KPI-essential workstream.
+### Workstream 0.6 — Shadow NHP + Canine Cohorts
 
-### Workstream 0.6 — Shadow Canine Cohort
+**Bucket:** GREEN (animal work, IACUC framework doc 16)
+**Owner:** PI-Reprogramming + contracted CRO
+**Dependencies:** Lab operational M6; IACUC charter executed M5; CRO contract M4
+**Deliverable:**
+- **NHP cohort (Charles River, BIOQUAL, or Bioneeds India) — 6 cynomolgus minimum** for AAV gene-therapy IND-enabling work (per SAB; canine was inadequate)
+- **Canine cohort (n=12)** for chronic small-molecule + TPE PK/safety only
 
-**Bucket:** GREEN (animal work, IACUC-equivalent in Próspera)
-**Owner:** PI-Reprogramming
-**Dependencies:** Lab operational M6; veterinary staff hired
-**Deliverable:** 12-dog cohort run Tier 1+2+3 protocols 6 months ahead of Principal; provides safety signal generalization.
+Note: NHP cohort is **prerequisite** for any AAV vector Principal administration in Phase 1. Cost: ~$400K Phase 0 down payment + $14M Phase 1 full IND-enabling.
 
-Note: Dogs were chosen as a model species because (a) longer lifespan = better aging signal, (b) similar microbiome diversity, (c) ethical-and-legal compared to NHPs, (d) Próspera-Roatán hosts a veterinary research facility. Co-housing with owners during non-procedure periods is allowed (Pampered Pets model).
+**Failure mode:** Adverse signal in NHPs not predicted from prior literature. Mitigation: this is exactly why we run the cohort; halt Principal escalation if NHPs show issue.
 
-**Failure mode:** Adverse signal in dogs that wasn't predicted from prior literature. Mitigation: this is exactly why we run the cohort; halt Principal escalation if dogs show issue.
+### Workstream 0.7 — Phase 1 R&D Prep (mRNA-LNP + mAb characterization)
 
-### Workstream 0.7 — AAV R&D (Phase 1 Prep)
-
-**Bucket:** YELLOW (R&D in Phase 0; administration in Phase 1)
-**Owner:** PI-Gene Therapy (Phase 1 hire) + CSO interim
-**Dependencies:** Lab build-out; AAV vector source
-**Deliverable:** Optimized AAV-MSTN and AAV-FS344 vectors characterized in cell culture and dose-finding in canine cohort.
-
-**Failure mode:** Vector immunogenicity profile incompatible with Principal's pre-existing AAV antibodies. Mitigation: pre-screen Principal for anti-AAV titers (multiple serotypes) at baseline; if positive, plan immunomodulation or alternate serotype.
+**Bucket:** YELLOW prep
+**Owner:** CSO interim + PI-Reprogramming (to be augmented by PI-Gene Therapy Phase 1)
+**Deliverable:**
+- mRNA-LNP OSK characterization in cell culture and dose-finding NHP
+- **Bimagrumab/garetosmab characterization** + license discussions with Versanis (or successor)
+- Klotho fragment KL1 production characterization
 
 ### Workstream 0.8 — Computational Infrastructure
 
 **Bucket:** GREEN
-**Owner:** CSO + PMO
-**Dependencies:** Cloud or on-prem decision; security architecture
-**Deliverable:** Data pipeline ingesting all Principal data (wearables, labs, imaging) into a unified data model; ML model training environment; secure analyst access.
+**Owner:** CSO + Head of Biostat + PMO
+**Deliverable:** Data pipeline ingesting Principal data (wearables, labs, imaging) into unified data model; ML training environment; secure analyst access.
 
-**Failure mode:** Data silos; analysts cannot link wearable to clinical to omic. Mitigation: enforce schema-first ingest; PMO audits monthly.
+**Critical per SAB:** Data Management Plan (doc 14) is foundational. Tier-Red enclave architecture (doc 07 §7.6) physically separates Principal-identifiable data.
 
 ### Workstream 0.9 — Spinout Formation
 
 **Bucket:** GREEN (operational)
 **Owner:** CFO + GC
-**Dependencies:** First Tier 1 + Tier 2 data; IP filings
-**Deliverable:** 3–4 spinouts incorporated; at least one with Series A term sheet by Month 16, closed by Month 18.
+**Deliverable:** 8 spinouts incorporated (per doc 09 v1.1 expanded portfolio); at least one with Series A term sheet by M16, closed by M18.
 
 ---
 
 ## 10.3 Phase 1: Foundation Build (Months 18–36)
 
-### Workstream 1.1 — AAV Myostatin / ActRII Modulation
+### Workstream 1.1 — Myostatin/ActRII Modulation (mAb-First, AAV Escalation)
 
-**Bucket:** YELLOW
-**Owner:** PI-Gene Therapy
-**Dependencies:** Canine 24-month safety data; Phase 0 success on relevant KPIs
-**Deliverable:** Single dose AAV-MSTN or AAV-FS344 administered intramuscularly to Principal at multiple muscle groups; muscle biopsy at 8 weeks, 6 months, 12 months; functional outcome measured.
+**Bucket:** YELLOW (mAb), AAV demoted to escalation path
+**Owner:** PI-Gene Therapy (hired M18) + PI-Performance
+**Dependencies:** NHP 24-month safety data; Phase 0 success on relevant KPIs
 
-Risks: erythrocytosis (manageable), cardiac hypertrophy (monitored by quarterly cardiac MRI), persistent neoantigen expression. Doses calibrated to be sub-Bhasin-1996 equivalent on the first administration.
+**v1.1 critical change per SAB:**
+- **Bimagrumab (anti-ActRII mAb) administered first** — reversible, Phase 2/3 safety data exists (Rooks 2020). 12 months of bimagrumab to characterize Principal response.
+- **Garetosmab (anti-activin A mAb)** as adjunct if bimagrumab alone insufficient.
+- **AAV-FS344 or AAV-MSTN only escalated to** if mAb fails AND NHP 24-month data clean AND EEC binding pre-approval.
 
-### Workstream 1.2 — Partial Reprogramming (OSK)
+Risks: erythrocytosis (manageable), cardiac hypertrophy (quarterly cardiac MRI), tendon stiffening (Mendias 2008 — known myostatin pathway risk). Doses calibrated to sub-Bhasin-1996 equivalent on first administration.
+
+### Workstream 1.2 — Partial Reprogramming (mRNA-LNP First)
 
 **Bucket:** YELLOW
 **Owner:** PI-Reprogramming
-**Dependencies:** External human Phase 1 readout OR program canine 24-month data
-**Deliverable:** Doxycycline-inducible AAV-OSK delivered tissue-selectively (initially: skeletal muscle, skin). Multiple cycles over 6-month window.
+**Dependencies:** External human Phase 1 readout (Altos/Retro/NewLimit) OR program NHP 24-month data
 
-The key innovation: tissue-restricted, drug-inducible, c-Myc-excluded — substantially de-risked vs first-generation OSKM work.
+**v1.1 critical change per SAB:**
+- **mRNA-LNP OSK (Cao 2024) is first-line.** Transient delivery, no integration, dose-tunable, stoppable.
+- **AAV-OSK with Tet-off system demoted to escalation path** — only if mRNA-LNP shows insufficient signal.
 
-**Failure mode:** No methylation reset signal at tolerable doses. Mitigation: pivot to different reprogramming factor cocktail (e.g., 7F from Sebastiano).
+Multiple cycles over 6-month window. Tissue-restricted initially (skeletal muscle, skin).
 
-### Workstream 1.3 — Mitochondrial Transplantation
+**Failure mode:** No methylation reset at tolerable doses. Mitigation: pivot to alternative factor cocktail (e.g., 7F from Sebastiano) or chemical reprogramming (Yang 2023).
+
+### Workstream 1.3 — Mitochondrial Transplantation (Autologous)
 
 **Bucket:** YELLOW
 **Owner:** PI-Bioenergetics
 **Dependencies:** Autologous source tissue harvested; GMP-equivalent enrichment
-**Deliverable:** Autologous mitochondria harvested from Principal's iliac crest fat, enriched in vitro, reinjected into specific skeletal muscle groups. Functional respirometry pre-post.
 
-McCully's pediatric cardiac protocol generalizes to skeletal muscle indications. We are the first to attempt enhancement rather than rescue.
+**v1.1 falsification plan strengthened per SAB:**
+- Pre-specified ≥3 biopsy sites (mitochondrial heterogeneity within vastus lateralis is large)
+- **mtDNA heteroplasmy tracking** via deliberate isotope labeling (¹⁵N pulse-chase or MitoTracker-stable analog) — distinguishes engraftment from paracrine
+- Respirometry on **permeabilized fibers (Pesta/Gnaiger protocol)** with explicit OXPHOS coupling control ratios — NOT isolated mito
+- **³¹P-MRS in vivo** for PCr recovery kinetics
 
-**Failure mode:** Low transplantation efficiency. Mitigation: optimize enrichment method; multiple administration routes.
+Without these, "transplantation success" cannot be distinguished from "expensive growth factor injection."
 
 ### Workstream 1.4 — Senex Phase 2 Equivalent
 
 **Bucket:** GREEN, scaled
 **Owner:** PI-Reprogramming + CMO
-**Dependencies:** Senex spinout operational
-**Deliverable:** Senex runs Phase 2 trial in healthy aging cohort (n=30–50); program licenses protocol and reciprocally provides Principal data.
+**Deliverable:** Senex runs Phase 2 in healthy aging cohort (n=30–50); program licenses protocol and reciprocally provides Principal data.
 
-### Workstream 1.5 — Klotho mRNA
+### Workstream 1.5 — Klotho Fragment KL1 (Sub-Q peptide)
 
 **Bucket:** YELLOW
 **Owner:** PI-Bioenergetics
 **Dependencies:** External Phase 1 readout
-**Deliverable:** Klotho mRNA (LNP) administered to Principal at conservative dose; cognitive outcome + CSF klotho measurement.
+
+**v1.1 change per SAB:** Castner 2023 *Nat Aging* KL1 fragment sub-Q replaces full-length AAV-Klotho. Avoids phosphate-handling risks (vascular calcification) of full-length.
+
+Cognitive outcome + CSF klotho measurement. Conservative dose. Reversible.
 
 ### Workstream 1.6 — Augmentation Suite Build (Phase 2 Prep)
 
-**Bucket:** ORANGE (build in Phase 1, operate in Phase 2)
+**Bucket:** ORANGE (build Phase 1, operate Phase 2)
 **Owner:** COO + Engineering team
-**Dependencies:** Phase 1 capital
-**Deliverable:** 5 m short-arm human centrifuge specced and ordered; hypobaric chamber site prepared; BCI lab build-out begun.
+**Deliverable:** 5 m short-arm human centrifuge ordered; hypobaric chamber site prepared; BCI lab build begun.
+
+### Workstream 1.7 — Plasma Fraction E5 / PPF (NEW)
+
+**Bucket:** YELLOW
+**Owner:** CMO + PI-Reprogramming
+**Dependencies:** Grifols Phase 2 readout
+**Deliverable:** Plasma fraction E5 (Alkahest/Grifols approach, more targeted than full TPE) integrated as Principal protocol if Phase 2 cleanly readouts.
 
 ---
 
 ## 10.4 Phase 2: Integration (Months 36–60)
 
-### Workstream 2.1 — Augmentation Suite Operations
-
-**Bucket:** ORANGE
-**Owner:** PI-Performance + CMO
-**Deliverable:** 2–3G chronic centrifuge training; intermittent hypobaric work; BCI integration.
-
-### Workstream 2.2 — Commercial BCI Implantation
-
-**Bucket:** YELLOW
-**Owner:** CMO + outside partner (Neuralink, Synchron, or successor)
-**Dependencies:** Commercial BCI available; Principal informed consent
-**Deliverable:** Principal receives BCI in US under commercial protocol; subsequent care at Próspera.
-
-Initial use: skill acceleration paired with high-bandwidth motor learning; cognitive bandwidth augmentation.
-
-### Workstream 2.3 — Iterative Reprogramming Optimization
-
-**Bucket:** YELLOW
-**Owner:** PI-Reprogramming
-**Deliverable:** Chronic, low-dose reprogramming protocol delivered Q3M; methylome age trajectory measured.
-
-### Workstream 2.4 — Mitochondrial Density Escalation
-
-**Bucket:** YELLOW
-**Owner:** PI-Bioenergetics
-**Deliverable:** Multiple rounds of mitochondrial transplantation; muscle mitochondrial volume fraction measured by 3D microscopy of biopsies.
-
-### Workstream 2.5 — Bioelectric Field Optimization (Phase 3 Prep)
-
-**Bucket:** ORANGE
-**Owner:** Levin lab collaboration
-**Deliverable:** Surface bioelectric mapping of Principal; first wearable bioelectric "pattern hold" device prototype.
-
-### Workstream 2.6 — Tardigrade Dsup Pilot (Animal Only)
-
-**Bucket:** YELLOW
-**Owner:** PI-Reprogramming
-**Deliverable:** Dsup transgene expressed in mouse muscle; radiation tolerance characterized. If positive: primate program.
+| Workstream | Topic | Bucket |
+|---|---|---|
+| 2.1 | Augmentation Suite operations (2–3G centrifuge chronic + 5–10G pulses; intermittent hypobaric; BCI integration) | ORANGE |
+| 2.2 | Commercial BCI implantation (Neuralink, Synchron, or successor) — Principal travels to cleared jurisdiction | YELLOW |
+| 2.3 | Iterative reprogramming optimization (chronic low-dose mRNA-LNP OSK Q3M) | YELLOW |
+| 2.4 | Mitochondrial density escalation (multiple rounds autologous mito + 3D microscopy of biopsies) | YELLOW |
+| 2.5 | Bioelectric field optimization (Phase 3 prep via Levin lab collaboration) | ORANGE |
+| 2.6 | Tardigrade Dsup pilot (animal only — Phase 1 mouse, Phase 2 primate); Principal candidacy gated on EEC and clean mouse+primate data | YELLOW |
+| 2.7 | Plasma fraction chronic | YELLOW |
 
 ---
 
 ## 10.5 Phase 3: Extension (Years 5–10)
 
-Major capital deployment. Subject to separate Board reauthorization at Phase 2 gate. High-level workstreams:
+Major capital deployment. Subject to separate Board + EEC reauthorization at Phase 2 gate.
 
-| WS | Topic | Bucket |
-|---|---|---|
-| 3.1 | Subdermal dermal mesh (graphene + silk) | ORANGE |
-| 3.2 | Engineered limb regeneration (BioDome scaled to mammalian primate) | ORANGE |
-| 3.3 | Subdermal electric organ (eel electroplaque) — animal first, then maybe Principal | ORANGE |
-| 3.4 | Cybernetic reflex augmentation (epidural spinal stim) | ORANGE |
-| 3.5 | Xenotransplantation if specific indication (organ replacement) | YELLOW now / ORANGE for enhancement |
-| 3.6 | Dsup transgene in Principal — only if mouse + primate data clean | ORANGE |
-| 3.7 | Klotho chronic AAV (sustained expression) | YELLOW now / ORANGE if novel |
-| 3.8 | Subdermal RTG power source — engineering R&D (not yet implanted) | ORANGE |
-| 3.9 | Directed energy emitter — wearable first, subdermal much later | ORANGE |
-| 3.10 | Compact fusion follow-on (research investment only) | ORANGE/RED |
+| WS | Topic | Bucket | EEC binding-veto pre-approval required |
+|---|---|---|---|
+| 3.1 | Subdermal dermal mesh (graphene + spider silk) | ORANGE | Yes |
+| 3.2 | Engineered limb regeneration (BioDome scaled to mammalian primate; Levin) | ORANGE | Yes |
+| 3.3 | Subdermal electric organ (eel electroplaque) — animal first, then maybe Principal | ORANGE | Yes |
+| 3.4 | Cybernetic reflex augmentation (epidural spinal stim) | ORANGE | Yes |
+| 3.5 | Xenotransplantation if specific organ indication (FDA-cleared US center) | YELLOW now | Yes |
+| 3.6 | Dsup transgene in Principal — only if mouse + primate data clean | ORANGE | Yes |
+| 3.7 | Subdermal RTG power source — engineering R&D only (not yet implanted) | ORANGE | Yes when implant |
+| 3.8 | Directed energy emitter — wearable first, subdermal much later | ORANGE | Yes when subdermal |
+| 3.9 | Compact fusion research investment | ORANGE/RED | N/A (research only) |
 
 ---
 
 ## 10.6 Phase 4: Frontier (Years 10–15)
 
-Subject to extensive Phase 3 review. Phase 4 is plausibly:
-- Subdermal nuclear power (if regulatory + supply path opens)
+Subject to extensive Phase 3 review.
+
+Plausibly:
+- Subdermal nuclear power (if regulatory + supply path opens — Pu-238 acquisition is foreign-policy problem per doc 07)
 - Subdermal directed energy emitter (if power available)
-- Engineered HMM-HA transgene in Principal (cancer-resistance)
+- Engineered HMM-HA transgene (cancer resistance) — only if all prior cancer-pathway safety data clean
 - Substantial cybernetic substitution (if clinically indicated or strongly preferred)
 - Bioelectric morphogenetic field engineering (if Levin program matures)
-- Possible engineered tail (Principal preference)
-- Vehicle-mounted directed energy (defense partnership)
+- Vehicle-mounted directed energy (defense partnership via Atlas-Defense spinout)
 
-OR Phase 4 may be cancelled if Phase 3 outcomes do not justify further escalation.
+OR Phase 4 may be cancelled if Phase 3 outcomes don't justify further escalation.
 
 ---
 
 ## 10.7 Cross-Phase Dependencies
 
 ```
-Phase 0 KPI hit  ──►  Phase 1 authorization
-Phase 1 success  ──►  Phase 2 authorization
-Phase 2 success  ──►  Phase 3 authorization (separate Board vote)
-Phase 3 success  ──►  Phase 4 authorization (separate Board vote, supermajority)
+Phase 0 KPI hit ≥6/11  ──►  Phase 1 authorization
+Phase 1 success          ──►  Phase 2 authorization (5× on at least 3 KPIs revised threshold)
+Phase 2 success          ──►  Phase 3 authorization (separate Board + EEC vote; external bioethics panel)
+Phase 3 success          ──►  Phase 4 authorization (unanimous Board + 8/9 SAB + EEC + ext. bioethics + Principal medical counsel)
 ```
-
-Each gate is a real stop point. The program is designed so that at every gate, the Holdco retains operating value (spinouts, IP, infrastructure) independent of Principal outcome.
 
 ---
 
 ## 10.8 Research Topics Monitored But Not Funded (RED + Frontier)
 
-Quarterly literature review by CSO + 1 SAB member:
+Quarterly literature review by CSO + 1 SAB member + 1 EEC member:
 
-- Casimir / DCE engineering applications
+- Casimir / DCE engineering
 - Schwinger pair production feasibility
-- LENR replication attempts
-- Macroscopic quantum coherence in biology (Bandyopadhyay, Reimers continuations)
+- LENR replication attempts (post-Berlinguette 2019)
+- Macroscopic quantum coherence (Bandyopadhyay, Reimers continuations)
 - Antimatter production cost trajectory
 - Compact fusion progress (Helion, SPARC, TAE)
-- Whole-brain emulation roadmap progress
-- Aldehyde-stabilized cryopreservation outcomes
+- Whole-brain emulation roadmap
+- ASC vitrification outcomes
+- Heterologous mito ethics (likely permanent RED)
 
-If any of these become engineering-ready (e.g., a LENR replication that survives peer review), the SAB convenes within 30 days to consider program incorporation.
+If any become engineering-ready, SAB convenes within 30 days to consider program incorporation. EEC binding veto applies to any inclusion.
 
 ---
 
 ## 10.9 Decision Authority Per Workstream
 
-The CSO is the day-to-day authority on technical direction within phase. The SAB approves cross-phase pivots. The Board approves phase transitions. The Principal approves anything done to the Principal's body.
+CSO: day-to-day technical direction within phase. **S&S Committee: binding pre-clearance on first-in-Principal interventions and Tier 2+ initiations.** EEC: binding veto on enumerated list. SAB: cross-phase pivots advisory. Board: phase transitions. **Principal: anything done to Principal's body.**
 
 Detailed RACI in doc 01.
 
 ---
 
-**Status:** Roadmap v1.0 — phase-gated re-baselining each transition.
+**Status:** Roadmap v1.1 (post-SAB) — phase-gated re-baselining each transition.

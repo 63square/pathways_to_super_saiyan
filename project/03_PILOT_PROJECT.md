@@ -3,15 +3,15 @@
 ## "Project PROMETHEUS — Phase 0: Foundation & Proof of Concept"
 
 **Duration:** 18 months
-**Budget:** $52M (hard cap; bottom-up build, see doc 04)
+**Budget:** $62M (hard cap, pre-funded into irrevocable Cayman escrow at T0; see doc 04)
 **Subject:** The Principal (n=1, self-experimentation model)
-**Objective:** Demonstrate that the Principal can be measurably improved across pre-registered axes using only GREEN-bucket interventions (doc 02), while standing up the institutional infrastructure required for Phase 1+.
+**Objective:** Demonstrate the Principal can be measurably improved across **11 pre-registered axes** using only GREEN-bucket interventions (doc 02 v1.1), while standing up the institutional infrastructure required for Phase 1+.
+
+**Pre-read:** [DEFINITIONS.md](./DEFINITIONS.md) for the operational definition of success.
 
 ---
 
 ## 3.1 Pilot Structure: Three Workstreams in Parallel
-
-The pilot is not a single experiment. It is three parallel workstreams that converge at Month 18.
 
 ```
 Month:    0    2    4    6    8   10   12   14   16   18
@@ -24,17 +24,29 @@ WS-C:                ███████████████████�
 ```
 
 ### Workstream A — Institutional Stand-up (Months 0–18)
-Build the entity, hire the team, lease the facilities, establish the ethical framework. Owner: **CEO**.
+Owner: **CEO** + PMO (4-person).
 
 ### Workstream B — Baselining & Intervention (Months 2–18)
-The actual science on the Principal. Baseline → intervene → measure → adjust. Owner: **CMO + CSO**.
+Owner: **CMO + CSO** with Science & Safety Committee binding pre-clearance.
 
 ### Workstream C — Spinout & IP (Months 4–18)
-Convert every meaningful data asset into an incorporated company with outside capital committed. Owner: **CFO + GC**.
+Owner: **CFO + GC**.
 
 ---
 
 ## 3.2 Workstream A: Institutional Stand-up
+
+### Month 0 (Day 1–7): Pre-Funded Escrow + Shadow Pipelines Activate
+
+| Task | Owner | Day | Cost |
+|---|---|---|---|
+| Charter + DEFINITIONS.md signed by Principal | Principal + GC | Day 1 | — |
+| **$62M Phase 0 + $50M Wind-Down Reserve wired to Cayman irrevocable escrow** | CFO interim + GC | Day 1 | — |
+| Spencer Stuart / Korn Ferry shadow exec pipelines (pre-contracted on retainer **before Charter signing**) activated | Principal (pre-Charter) + CEO retained | Day 1 | $0.5M Year 1 retainer total |
+| Shadow CMO retainer signed (pre-identified concierge medicine senior physician) | Principal | Day 7 | $50K Year 1 |
+| Shadow GC counsel-on-call (Wilson Sonsini partner) | Principal | Day 7 | Embedded in IP retainer |
+| Shadow interim CFO (FLG Partners or similar) | Principal | Day 7 | $50K Year 1 |
+| PMO Director full-time onboarded | Principal | Day 7 | (See comp table) |
 
 ### Month 0–3: Legal & Financial Foundation
 
@@ -42,193 +54,153 @@ Convert every meaningful data asset into an incorporated company with outside ca
 |---|---|---|---|
 | Incorporate Cayman holdco | GC | M1 | $50K |
 | Form Próspera operating subsidiary | GC | M2 | $200K |
-| Establish Cook Islands asset-protection trust for Principal | GC | M3 | $300K |
-| Set up captive insurance (Bermuda) | CFO + GC | M3 | $500K |
-| Open program accounts; multi-sig wallets for crypto-denominated reserves | CFO | M2 | $50K |
-| Engage Big-4 audit firm | CFO | M3 | $200K/yr ongoing |
-| Engage IP firm (Wilson Sonsini or Fenwick) | GC | M1 | $400K/yr ongoing |
-| Engage tax counsel (international) | GC | M2 | $200K/yr ongoing |
-| Engage crisis comms firm on retainer | CEO | M3 | $150K/yr |
+| **Form UAE DHCC co-primary subsidiary** | GC | M2 | $250K |
+| **Form El Salvador secondary subsidiary** | GC | M4 | $200K |
+| Establish Cook Islands trust + Nevis LLC interlay | GC | M3 | $400K |
+| Bermuda captive setup (interim fronting carrier AIG/Beazley M3–M9) | CFO + GC | M3 | $1.5M (premiums + setup) |
+| Multi-currency operating accounts; multi-sig wallets | CFO | M2 | $50K |
+| Big-4 audit firm + tax counsel + IP firm (Wilson Sonsini) + crisis comms | GC, CFO, CEO | M1–M3 | $1.2M Year 1 |
+| Personal indemnity for Principal | GC | M2 | $200K |
+| **OFAC / EAR / BIS / FCPA compliance program stood up** | GC + new Head of Regulatory | M3–M6 | $300K |
 
-### Month 0–6: Executive Recruiting
+### Month 0–6: Executive Recruiting (Revised Comp per SAB Feedback)
 
-| Role | Recruiting partner | Latest fill | Compensation (cash + equity) |
+Searches initiated Day 1 via pre-contracted shadow pipelines. Realistic 4–6 month fill time means full team in place **M4–M6**, with **shadow interims covering M1–M6**.
+
+| Role | 18-mo cash (base+bonus, 2026 market) | Equity (phantom Holdco units) | Latest fill |
 |---|---|---|---|
-| **Chief Executive / Program Director** | Spencer Stuart | M2 | $800K + 4% spinout pool |
-| **Chief Medical Officer (MD-PhD)** | Korn Ferry Healthcare | M2 | $1.2M + 2.5% |
-| **Chief Scientific Officer** | Internal + Lever | M3 | $1.0M + 2.5% |
-| **General Counsel** | Major Lindsey | M2 | $900K + 1% |
-| **Chief Financial Officer** | Heidrick & Struggles | M3 | $800K + 1% |
-| **Chief Security Officer** | Black Cube alumni network | M4 | $600K + 0.5% |
-| **PMO Director** | Direct hire | M2 | $400K + 0.5% |
+| **CEO / Program Director** | $1.0M base × 1.5 + 75% bonus | 3% spinout pool | M4 |
+| **CMO (MD-PhD, longevity+gene therapy)** | $1.8M base × 1.5 + 100% bonus | 2.5% | M3 |
+| **CSO** | $1.5M base × 1.5 + 80% bonus | 2.5% | M5 |
+| **General Counsel** | $1.1M base × 1.5 + 50% bonus | 1% | M3 |
+| **Chief Financial Officer** | $900K base × 1.5 + 60% bonus | 1% | M4 |
+| **Chief Security Officer** | $700K base × 1.5 + 50% bonus | 0.5% | M5 |
+| **Head of Quality (QA)** [NEW] | $500K base × 1.5 + 40% bonus | 0.4% | M6 |
+| **Head of Regulatory Affairs** [NEW] | $600K base × 1.5 + 50% bonus | 0.4% | M9 |
+| **Head of Biostatistics** [NEW] | $500K base × 1.5 + 40% bonus | 0.3% | M6 |
+| **Head of People (CHRO)** [NEW] | $450K base × 1.5 + 40% bonus | 0.3% | M4 |
+| **PMO Director** (VP-level, IND-program background) | $500K base × 1.5 + 40% bonus | 0.4% | M1 |
+| **3 PMO direct reports** (WS-A, WS-B, WS-C PMs + FP&A) | $1.2M total fully loaded × 1.25y | — | M4 |
 
-**Critical:** CMO must be hired before CSO. CMO has veto on Principal's care and must be in place before any interventional protocol is approved.
+**Critical sequence:** Shadow CMO retainer (D7) → CMO hired (M3) → first interventional protocol Ethics-approved (M5) → first procedure (M9). If full-time CMO slips, shadow CMO operates with mandatory Science & Safety Committee pre-clearance for any procedure during interim period.
 
 ### Month 3–9: PI Recruiting
 
-Four founding principal investigators, each running a domain:
+Three founding PIs (was four; one deferred to Phase 1 per budget realism):
 
-| Domain | Profile sought | Latest fill | Setup cost |
+| Domain | Profile | Latest fill | Setup |
 |---|---|---|---|
-| **Regenerative Medicine / Reprogramming** | Faculty-level, Salk/Buck/Altos diaspora | M6 | $5M (lab + first 24 months ops) |
-| **Mitochondrial Bioenergetics** | Wallace/McCully/Spiegelman trainees | M7 | $4M |
-| **Gene Therapy / Delivery** | AAV-MYO program alumni, ex-Sarepta/Sarepta competitors | M7 | $5M |
-| **Performance Physiology / Endocrinology** | Olympic-program-affiliated MD, ideally with elite athlete experience | M6 | $3M |
+| **Regenerative Medicine / Reprogramming** | Salk/Buck/Altos diaspora | M7 | $4M |
+| **Mitochondrial Bioenergetics** | Wallace/McCully/Spiegelman trainees | M8 | $3.5M |
+| **Performance Physiology / Endocrinology** | Olympic-program-affiliated MD | M7 | $2.5M |
 
-PIs report to CSO. Each PI brings 2–4 senior scientists. Total Phase 0 scientific FTE: ~25–30.
+(Gene Therapy PI deferred to Phase 1 once Y1/Y2 mAb data accrues; reduces Phase 0 risk and cost.)
 
 ### Month 3–6: Facilities
 
 | Facility | Location | Purpose | Cost |
 |---|---|---|---|
-| HQ + Wet Lab #1 (5,000 m²) | Próspera, Roatán | Primary R&D | $4M build-out + $1.5M/yr lease |
-| Clinical Suite | Próspera or partnered hospital | Principal's procedures | $2M build-out |
-| Boston satellite (1,500 m²) | Kendall Square | US talent retention | $200K/mo lease |
-| Bay Area satellite (1,000 m²) | South SF | US talent retention | $150K/mo lease |
-| Data center co-lo | AWS Gov / Equinix | Primary compute | $50K/mo |
+| Próspera HQ + wet lab (3,000 m²) | Roatán | Primary R&D | $3M build + $90K/mo |
+| **UAE DHCC clinical suite (co-primary)** | Dubai | Co-primary clinical site | $2M build + $120K/mo |
+| Clinical procedure room (Próspera) | Roatán | Principal procedures | $1.5M build |
+| Boston satellite (1,200 m²) | Kendall Sq | US talent + analytics only (no protocol authorship per legal) | $180K/mo |
+| El Salvador secondary | San Salvador | Tertiary jurisdiction | $50K/mo lease (small) |
+| AWS GovCloud + on-prem Tier-Red enclave | — | Compute | $80K/mo |
 
-### Month 4–6: Ethical & Regulatory Framework
+### Month 4–6: Ethical, Regulatory & Quality Framework
 
 | Task | Owner | Output |
 |---|---|---|
-| Stand up internal IRB-equivalent ("PROMETHEUS Ethics Council") | GC + CMO | 7-person body: 2 external bioethicists, 2 external MDs, 1 patient advocate, GC, CMO |
-| Engage Próspera Ethics Council (jurisdictional regulator) | GC | Formal approval for Phase 0 protocols |
-| Pre-register protocols on internal registry + external (OSF or ClinicalTrials.gov where appropriate) | CSO | Public-record pre-registration |
-| Document GMP-equivalent SOPs for every intervention | CMO | SOP library |
-| Subscribe to industry adverse-event databases | CMO | FAERS, EudraVigilance, FDA MAUDE |
+| **External Ethics Committee (EEC) — 5 external members, paid from irrevocable escrow** | Principal + GC | Convened by M3 |
+| Próspera Ethics Council jurisdictional regulator engagement | GC | Phase 0 protocols approved by M5 |
+| Internal IRB-equivalent (subordinate to EEC) | GC + CMO | Operational by M4 |
+| **External Evaluation Panel (EEP) — 3 standing reviewers contracted from escrow** | LID | Contracted by M4; first gate report M17 |
+| **Pre-registration of Phase 0 protocols + 11 KPIs on public registry (OSF / equivalent)** | CSO + Head of Biostat | M5 |
+| **Quality Management System (eQMS — Veeva Vault QMS or Greenlight Guru) deployed** | Interim QA (Big-4) → Head of QA | M3 deployment; full handoff by M6 |
+| Document control hierarchy, CAPA, change management, training matrix | Head of QA | M6 |
+| GMP-equivalent SOPs for every intervention | CMO + Head of QA | SOP library locked M6 |
+| Subscribe industry AE databases | CMO | FAERS, EudraVigilance, FDA MAUDE |
+| **Whistleblower channel (outside ombudsperson firm, 24/7)** | LID | Operational M3 |
 
 ---
 
 ## 3.3 Workstream B: Baselining & Intervention on the Principal
 
-### The Eight KPI Axes (pre-registered)
+### The Eleven KPI Axes (pre-registered at M0)
 
-The Principal will be measured against these eight axes at Month 0 (baseline) and Month 16 (final readout). Success = improvement on **6 of 8** at pre-registered thresholds.
+Expanded from 8 per SAB feedback. Three new axes (K9 immune, K10 glucose dynamics, K11 sleep architecture) capture domains the program's own thesis depends on.
 
-| # | Axis | Primary Metric | Threshold for "Hit" | Method |
-|---|---|---|---|---|
-| K1 | **Cardiorespiratory** | VO₂max | +20% from baseline OR top 0.1% age-matched | Cosmed K5 + treadmill |
-| K2 | **Muscular power** | Peak Watts on 6-second cycle ergometer | +25% from baseline | Wattbike Atom |
-| K3 | **Muscular endurance** | TTE at 85% VO₂max | +30% from baseline | Treadmill protocol |
-| K4 | **Body composition** | FFM / Total mass ratio | +5 percentage points absolute | DEXA + ADP |
-| K5 | **Cognitive performance** | Composite of n-back, RAVEN, reaction time | Top 0.1% age-matched | CANTAB + Cogstate |
-| K6 | **Biological age** | DNAm GrimAge | −3 years vs chronological age | TruDiagnostic |
-| K7 | **Inflammatory & metabolic profile** | Composite (hsCRP, fasting insulin, HOMA-IR, IL-6) | All in top decile age-matched | Standard chem panels |
-| K8 | **Recovery capacity** | HRV recovery slope after standardized stress test | Top 5% age-matched | Whoop + clinical-grade ECG |
+| KPI | Metric | Method | Success threshold (M16) |
+|---|---|---|---|
+| K1 | VO₂max | Cosmed K5 ramp protocol | +20% absolute OR top 0.1% age-matched |
+| K2 | Peak Watts 6-s sprint | Wattbike Atom | +25% absolute |
+| K3 | TTE at 85% VO₂max | Treadmill | +30% absolute |
+| K4 | FFM / Total mass | DEXA + ADP | +5 percentage points |
+| K5 | Cognitive composite (n-back, RAVEN, RT) | CANTAB + Cogstate | Top 0.1% age-matched |
+| K6 | Biological age (DNAm GrimAge) | TruDiagnostic | −3 years vs chronological |
+| K7 | Inflammatory/metabolic composite (hsCRP, fasting insulin, HOMA-IR, IL-6, ApoB) | Standard labs | All 5 in top decile age-matched |
+| K8 | HRV recovery slope post stress test | Clinical ECG | Top 5% age-matched |
+| **K9** | **Immune competence** (vaccine challenge antibody titers + T-cell ELISpot, CMV-specific T-cell exhaustion, naïve:memory CD8 ratio, thymic output via sjTREC) | Standardized vaccine + immunophenotyping | Within or above top decile age-matched; no decrement vs M0 |
+| **K10** | **Glucose dynamics under load** (OGTT + Matsuda index + CGM-derived variability under exercise) | OGTT + 14-day CGM with structured exercise | Matsuda ≥top decile; CGM CV% ≤8% |
+| **K11** | **Sleep architecture** (SWS minutes, REM %, spindle density, overnight HRV recovery) | In-home PSG, 7 nights, baseline + M16 | SWS minutes +15% OR top decile age-matched |
 
-Secondary/exploratory metrics (~40 more) measured but not gating.
+**Aggregate success:** ≥6 of 11 KPIs hit threshold.
 
-### Baselining Protocol (Months 2–4)
+### Baselining Protocol (Months 2–4) — owner CMO
 
-The most thorough phenotyping of a single human ever conducted. Owner: **CMO**.
+Same scope as v1.0 ($500K) plus:
+- **Pre-Phase-0 sperm cryopreservation** (mandatory before any gonadotoxic intervention)
+- **Baseline sexual function (IIEF)**
+- **Baseline structured psychiatric battery** (SCID-5, Y-BOCS, AUDIT, hypomania screen, MLQ meaning-in-life)
+- **Baseline immune challenge** (Tdap booster + recombinant zoster to establish baseline antibody trajectory)
+- **Anti-AAV neutralizing antibody screen** (multiple serotypes — gates Phase 1 vector choice)
 
-**Months 2–3: Genomic & Multi-omic**
-- 30× whole-genome sequencing (germline + somatic from blood)
-- Whole-exome sequencing on additional tissues (muscle, fat, skin)
-- Whole-transcriptome (blood, muscle biopsy, fat biopsy)
-- Methylome (450K + targeted bisulfite)
-- Proteomics (Olink Explore 3072 — 3000+ proteins)
-- Metabolomics (Metabolon HD4)
-- Lipidomics
-- Microbiome (gut, oral, skin — shotgun)
-- HLA typing (full)
-- Pharmacogenomics
+Cost addition: ~$60K. Updated baseline cost: ~$560K.
 
-Estimated cost: $250K
+### Interventional Protocol (Months 4–16) — DETAILED IN doc 11 SOP
 
-**Months 2–4: Structural & Functional**
-- Whole-body MRI 7T (research-grade) — muscle quality, organ volumes, fat distribution
-- Cardiac MRI with stress
-- Brain MRI (T1, T2, DTI, fMRI, MRS)
-- DEXA + air-displacement plethysmography
-- CT for bone density and visceral fat
-- Echocardiography
-- Pulmonary function test
-- VO₂max on treadmill + cycle
-- Force plate jump testing
-- Isokinetic dynamometry (all major joints)
-- Continuous HRV for 14 days
-- Continuous glucose monitor for 14 days
-- Sleep study (PSG) at home for 7 nights
-- Eye exam + retinal imaging + perimetry
-- Audiometry + vestibular function
-- Skin sensitivity, thermography, microbiome
-- Stool, urine, sweat sampling
+**Tier 1 (M4–M7): Lifestyle + Pharmaceutical (GREEN)**
+- Polarized training + heat acclimation + intermittent hypoxia
+- Cyclic FMD (Longo protocol)
+- Sleep optimization
+- Supplement stack: creatine, urolithin A, **NR (substituted for NMN)**, MitoQ, omega-3, vit D, mag glycinate, glycine, melatonin micro-dose
+- **Acarbose 100mg TID, canagliflozin 100mg daily** (added per SAB feedback)
+- **Weekly low-dose rapamycin** (PEARL protocol, gated on Head of Quality SOP)
+- Endocrine: physiological-range TRT only if indicated; no supraphysiologic
+- **Microdose tirzepatide** paired with high-protein + resistance training (muscle-sparing protocol)
 
-Estimated cost: $150K + Principal time
-
-**Months 3–4: Cognitive & Behavioral**
-- Full neuropsych battery (~12 hours over 3 days)
-- CANTAB + Cogstate longitudinal
-- Reaction time, anticipatory timing, dual-task performance
-- Personality inventories (NEO-PI-R, etc.)
-- Sleep diary + chronotype
-- Diet recall, activity recall
-- Resting EEG, evoked potentials
-
-Estimated cost: $80K
-
-**Total baselining cost: ~$500K over 8 weeks of the Principal's time (~60–80 hours of direct testing distributed)**
-
-### Interventional Protocol (Months 4–16)
-
-The Principal undergoes a phased introduction of GREEN-bucket interventions, with washout periods and biomarker checks every 4 weeks. Detailed SOP in doc 11.
-
-**Tier 1 (Months 4–7): Lifestyle + Pharmaceutical**
-- Polarized training program (4 sessions Z2, 1 Z5 per week)
-- Heat acclimation (sauna 4× weekly, 30 min at 80°C)
-- Intermittent hypoxia training (altitude tent + sessions at FiO₂ 0.13)
-- Caloric/macro optimization with sports nutritionist (target ~3500 kcal/day, periodized)
-- Cyclic prolonged fasting (FMD protocol from Longo lab, 5 days every 3 months)
-- Sleep optimization (CBT-i + light/temperature/CO₂ control)
-- Supplement stack: creatine 5g, urolithin A 1g, NMN 1g, MitoQ 20mg, omega-3 4g, vitamin D titrated to 50–80 ng/mL, magnesium glycinate, glycine pre-bed, melatonin micro-dose
-- Endocrine assessment + TRT only if clinically indicated (target physiological, not supraphysiologic)
-
-**Tier 2 (Months 6–10): Senolytic + Plasma Exchange**
-- D+Q dosing: 100mg dasatinib + 1000mg quercetin × 3 consecutive days, Q monthly × 3 months, then Q3M
-- Fisetin: 1500mg × 2 consecutive days monthly (alternates with D+Q)
-- Therapeutic plasma exchange: 1.0 plasma volume exchange × 4 sessions over 8 weeks, then maintenance Q6M
+**Tier 2 (M6–M10): Senolytic single-cycle + capped TPE**
+- D+Q **single cycle** (not monthly) + pleural ultrasound at 14d, 90-day washout
+- Fisetin single cycle alternating
+- **TPE: 4 sessions total in Phase 0** (not weekly × 4 then maintenance). Pre-cycle IgG + B-cell repertoire baseline
 - Biomarker check post each cycle
 
-**Tier 3 (Months 8–12): Microbiome + Mitochondrial Substrate**
-- Pre-FMT antibiotic prep (Cipro + Metronidazole 7 days)
-- FMT from screened athlete donor (3 doses oral capsule over 3 weeks)
-- Veillonella probiotic maintenance daily
-- Akkermansia muciniphila probiotic maintenance daily
-- Ketogenic adaptation phase (8 weeks) followed by cyclic ketogenic
-- Exogenous ketone esters (HVMN) pre-key training sessions
+**Tier 3 (M8–M12): Microbiome + Mitochondrial Substrate**
+- Pre-FMT abx + screened athlete FMT (3 doses)
+- Veillonella + Akkermansia maintenance
+- Ketogenic adaptation (8 weeks) + cyclic
+- Exogenous ketone esters pre-key sessions
 
-**Tier 4 (Months 10–14): Cognitive + Recovery Optimization**
-- tDCS daily home protocol (anodal F3, 2mA × 20 min, paired with cognitive training)
-- Targeted memory reactivation during sleep (audio cues paired with daytime learning)
-- Hyperbaric oxygen therapy: 90 min @ 2.0 ATA, 5×/week × 8 weeks (Hachmo protocol)
-- Photobiomodulation (full-body, 660 + 850 nm)
+**Tier 4 (M10–M14): Cognitive + Recovery**
+- Daily tDCS (anodal F3) + targeted memory reactivation
+- **HBOT 3×/wk × 8wk @ 1.5 ATA** (de-escalated per SAB)
+- Photobiomodulation
 
-**Tier 5 (Months 12–16): Integration & Optimization**
-- Continue all tolerated protocols
-- Adjust based on biomarker trajectory
-- Begin Phase 1 preparatory work (donor screening for autologous mitochondrial harvest, etc.)
+**Tier 5 (M12–M16): Integration**
+- Continue tolerated protocols
+- Phase 1 preparatory (donor screening for autologous mitochondrial harvest, anti-AAV titer follow-up)
 
-**Continuous throughout (Months 4–18):**
-- Biweekly bloods (CBC, CMP, lipids, hormones, inflammatory markers)
-- Monthly biomarker panels (full Olink + Metabolon)
-- Q3-monthly DNAm clocks (Horvath, GrimAge, PhenoAge)
-- Q3-monthly imaging (MRI body composition + cardiac)
-- Q3-monthly performance testing (VO₂max, power, cognitive)
-- Q6-monthly muscle biopsy + omics
-- Daily wearable data (Whoop, CGM, Oura, Apple Watch — redundant)
-- Weekly subjective rating scales (mood, energy, libido, sleep, soreness)
+**Continuous (M4–M18):** Per SOP doc 11 §11.6.
 
-### Stop Rules (See doc 11 for full SOP)
+### Stop Rules — RECALIBRATED FOR ENHANCEMENT CONTEXT (doc 11)
 
-The Principal's care is halted, and the CMO convenes an emergency review, if **any** of the following occur:
-- Grade 3+ adverse event (CTCAE v5)
-- Hematocrit >55% (erythrocytosis risk)
-- Liver enzymes >3× ULN
-- Creatinine increase >50% from baseline
-- New cardiac arrhythmia or structural change on imaging
-- Any malignancy
-- Subjective severe symptom (Principal's call, no override)
+Major v1.1 revision: stop rules tightened for healthy-volunteer (not therapeutic oncology) standard.
+- **Grade 2 AE attributable to program intervention = HARD stop** (was soft stop)
+- **Persistent Grade 1 AE >30 days = SOFT stop** (new)
+- **Cumulative toxicity rule:** >3 soft stops in any 12-month window = mandatory 6-month program-wide pause + external EEC + SAB review
+- **Psychiatric stop rules** (new):  PHQ-9 ≥15 or GAD-7 ≥15 sustained 2 weeks; new suicidal ideation; hypomania; persistent anhedonia; new substance escalation → immediate pause of all neuro-active and hormonal interventions
+- **Relational stop rules** (new): documented social withdrawal, divorce/estrangement attributable to program demands, loss of pre-program meaningful relationships → EEC review of net-harm
+- All prior R1-tier rules retained
 
 ---
 
@@ -236,75 +208,76 @@ The Principal's care is halted, and the CMO convenes an emergency review, if **a
 
 ### IP Capture Process
 
-Every Monday, the CSO + GC review the prior week's data and notes for patentable subject matter. Every meaningful discovery triggers:
-
-1. **Invention disclosure** within 7 days
-2. **Provisional patent filing** within 30 days
-3. **Full PCT filing** within 9 months if commercially significant
-
-Target: ≥30 provisional patents filed in Phase 0.
+**Per SAB feedback: under-staffed by ~3×.** Revised:
+- **Chief IP Officer + 3 patent attorneys + 2 paralegals** by M9 (~$2.5M/yr fully loaded)
+- Weekly IP review (CSO + GC + Head of QA + outside counsel)
+- **$10–20M/yr filing budget** by Year 2 (was implicit in legal line)
+- 7-day fast-track provisional option for high-risk-of-disclosure inventions
+- **$500K/yr defensive publication budget** (IP.com, Research Disclosure)
+- **DTSA-compliant trade-secret register** with quarterly audit
 
 ### Target Spinouts (Phase 0 — at least one must reach Series A)
 
-| Spinout Candidate | Thesis | Anchor Investor Conversations |
+Expanded portfolio per SAB feedback (added service/software/diagnostics):
+
+| Spinout | Thesis | Anchor Investor |
 |---|---|---|
-| **Spinout 1: AthleteOmics** | Multi-omic athletic phenotyping CRO | Andreessen Bio, ARCH |
-| **Spinout 2: Senex** | Senolytic + TPE combined longevity protocol | Khosla, Founders Fund |
-| **Spinout 3: MitoFuel** | Mitochondrial substrate optimization (consumer + clinical) | Khosla, F-Prime |
-| **Spinout 4: AeonBio** | Targeted methylome reset protocols (downstream of Altos/Retro) | a16z bio, ARCH |
+| **AthleteOmics** | Multi-omic athletic phenotyping CRO | Andreessen Bio, ARCH |
+| **Senex** | Senolytic + TPE longevity protocol | Khosla, Founders Fund |
+| **MitoFuel** | Mitochondrial substrate stack | Khosla, F-Prime |
+| **AeonBio** | Methylome reset (downstream of Altos/Retro) | a16z bio, ARCH |
+| **PrometheusAI** [NEW] | In-house bio-AI foundation model API | OpenAI/Anthropic strategic; Lux |
+| **N1Trials** [NEW] | N-of-1 / decentralized trial CRO for UHNW clients | General Catalyst |
+| **Aurum Clinic** [NEW] | Próspera + DHCC longevity clinic + protocol licensing | Strategic / family offices |
+| **PrometheusDx** [NEW] | Multi-omic aging clock + intervention-response biomarker panel (CLIA-LDT) | Diagnostics-focused VCs |
 
-Each spinout is structured with the holdco retaining 60–80% post-Series A. The Principal personally retains a board seat on the highest-conviction spinouts.
-
-**Phase 0 spinout revenue target:** $50M+ in committed Series A capital across portfolio by Month 18.
+Phase 0 spinout seed: $4M total. Phase 0 outside capital raise target: **$50M+ committed** by M18.
 
 ---
 
 ## 3.5 Pilot Risk Profile
 
-| Risk | Probability | Severity | Mitigation |
-|---|---|---|---|
-| Principal serious adverse event | <5% | Catastrophic | Strict SOP; shadow primate cohort; CMO veto |
-| Failure to hit 6 of 8 KPIs | 25–35% | Major (kills Phase 1) | Conservative selection; statistical power; mid-pilot adjustment |
-| Próspera regulatory regime collapses | <10% | Major | Cayman backup; Caribbean tertiary |
-| Key staff departure (founding C-suite) | 15–25% | Moderate | Vesting cliffs; redundant deputies |
-| Adverse press event | 30%+ | Moderate | Crisis comms retainer; staff NDAs; air-gapped data |
-| Capital market downturn affects spinout valuations | 40%+ | Minor | Spinouts not load-bearing for program |
-
-Full risk register in doc 05.
+See doc 05 (revised v1.1 risk register).
 
 ---
 
-## 3.6 Pilot Phase Gate (Month 18)
+## 3.6 Pilot Phase Gate (Month 18) — See doc 12
 
-To unlock Phase 1 capital ($800M), the following must be true at Month 18:
+Unlock Phase 1 capital (~$365M revised) requires:
 
-✓ **6 of 8 KPIs hit** at pre-registered thresholds
-✓ **Zero Grade 3+ adverse events** in the Principal
+✓ **≥6 of 11 KPIs hit** at pre-registered thresholds
+✓ **Zero Grade 3+ adverse events** in Principal
 ✓ **At least 1 spinout** with $20M+ Series A committed
-✓ **Independent SAB review** concludes "the protocol generalizes" (i.e., the gains aren't artifacts)
-✓ **GC opinion** that Phase 1 protocols remain legally executable in primary or secondary jurisdiction
-✓ **Principal consent** to proceed, in writing, after 30-day cooling-off period
-
-If any are missed, the Board convenes within 30 days to determine: (a) extend Phase 0 by 6–12 months, (b) restructure into a longevity-only program, (c) wind down with IP/spinouts retained, or (d) full continuation override (requires Principal + 4/5 Board + 7/9 SAB).
-
----
-
-## 3.7 Pilot Budget Summary (Detailed in doc 04)
-
-```
-Personnel              $14.2M    (C-suite + PIs + scientists + ops)
-Facilities             $7.0M     (HQ + clinical + satellites)
-Equipment              $5.0M     (imaging, lab, monitoring)
-Procedures/Consumables $3.5M     (omics, biopsies, drugs, supplements)
-Legal/Regulatory       $2.5M     (entity, IP, trust, retainers)
-External services      $2.0M     (CROs, consultants, insurance)
-Spinout seeding        $3.0M     (3-4 spinouts × $750K avg)
-Security               $1.5M     (physical, cyber, counterintel)
-Reserve                $3.3M     (10% contingency)
-─────────────────────  ──────
-TOTAL                  $42.0M
-```
+✓ **EEP gate report** delivered to LID + Principal + SAB Chair + Cook Islands trustee 30 days before gate
+✓ **Independent SAB review** + **EEC sign-off**
+✓ GC opinion that Phase 1 protocols remain legally executable
+✓ Principal consent after 30-day cooling-off
+✓ PMO 18-month after-action report (AAR) complete
 
 ---
 
-**Status:** Phase 0 Plan v1.0 — awaiting Principal authorization + $7M Tranche 1 release.
+## 3.7 Pilot Budget Summary (See doc 04 for detail)
+
+```
+Personnel (10 C/VP + 3 PI + scientists/techs + ops)        $26.5M
+Facilities (Próspera + UAE + clinical + Boston + ES)       $11.5M
+Equipment + compute                                         $5.5M
+Procedures/Consumables + sperm cryo + immune challenge      $3.7M
+Legal/Regulatory (incl. OFAC/FCPA, 3 jurisdictions)         $4.5M
+External services + SAB + EEC + EEP + Ombudsperson         $3.0M
+Quality (eQMS + QA fees Y1)                                 $0.8M
+Insurance (captive + commercial + key-person)               $2.0M
+Audit + Board comp                                          $1.5M
+IP filings + defensive pubs + FTO                           $0.7M
+Spinout seeding (8 spinouts × ~$500K)                       $4.0M
+Security (incl. insider threat program + PSD)               $2.5M
+Reserve (20%)                                              $10.0M (held in escrow with Principal-medical-pause sub-reserve)
+─────────────────────                                       ──────
+TOTAL PHASE 0                                              $62.0M (pre-funded into Cayman escrow at T0)
+
+Separately escrowed: $50M Wind-Down Reserve (Ulysses contract — vests to institutional entity on Principal gate override)
+```
+
+---
+
+**Status:** Phase 0 Plan v1.1 (post-SAB review) — awaiting Principal authorization + escrow funding.
